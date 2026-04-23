@@ -1,0 +1,72 @@
+[
+  {
+    "name": "lights",
+    "category": "critical",
+    "watts_avg": 180,
+    "start_up_spike_w": 220,
+    "revenue_if_running_rwf_per_h": 3500
+  },
+  {
+    "name": "phone_charging",
+    "category": "critical",
+    "watts_avg": 120,
+    "start_up_spike_w": 150,
+    "revenue_if_running_rwf_per_h": 1800
+  },
+  {
+    "name": "cash_system",
+    "category": "critical",
+    "watts_avg": 90,
+    "start_up_spike_w": 120,
+    "revenue_if_running_rwf_per_h": 2200
+  },
+  {
+    "name": "clipper_station",
+    "category": "comfort",
+    "watts_avg": 240,
+    "start_up_spike_w": 320,
+    "revenue_if_running_rwf_per_h": 6000
+  },
+  {
+    "name": "hair_dryer",
+    "category": "luxury",
+    "watts_avg": 1500,
+    "start_up_spike_w": 1900,
+    "revenue_if_running_rwf_per_h": 7000
+  },
+  {
+    "name": "water_heater",
+    "category": "luxury",
+    "watts_avg": 1800,
+    "start_up_spike_w": 2200,
+    "revenue_if_running_rwf_per_h": 5000
+  },
+  {
+    "name": "freezer",
+    "category": "critical",
+    "watts_avg": 900,
+    "start_up_spike_w": 1800,
+    "revenue_if_running_rwf_per_h": 12000
+  },
+  {
+    "name": "cold_room_fan",
+    "category": "critical",
+    "watts_avg": 650,
+    "start_up_spike_w": 900,
+    "revenue_if_running_rwf_per_h": 8000
+  },
+  {
+    "name": "sewing_machine",
+    "category": "comfort",
+    "watts_avg": 350,
+    "start_up_spike_w": 500,
+    "revenue_if_running_rwf_per_h": 6500
+  },
+  {
+    "name": "iron_press",
+    "category": "luxury",
+    "watts_avg": 1200,
+    "start_up_spike_w": 1600,
+    "revenue_if_running_rwf_per_h": 5500
+  }
+]

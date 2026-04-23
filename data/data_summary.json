@@ -1,0 +1,12 @@
+{
+  "rows": 4320,
+  "outage_rate": 0.03958333333333333,
+  "mean_duration_min_when_outage": 92.05263157894737,
+  "appliance_count": 10,
+  "businesses": [
+    "salon",
+    "cold_room",
+    "tailor"
+  ],
+  "seed": 42
+}

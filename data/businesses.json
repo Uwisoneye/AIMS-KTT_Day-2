@@ -1,0 +1,24 @@
+{
+  "salon": [
+    "lights",
+    "phone_charging",
+    "cash_system",
+    "clipper_station",
+    "hair_dryer",
+    "water_heater"
+  ],
+  "cold_room": [
+    "lights",
+    "phone_charging",
+    "cash_system",
+    "freezer",
+    "cold_room_fan"
+  ],
+  "tailor": [
+    "lights",
+    "phone_charging",
+    "cash_system",
+    "sewing_machine",
+    "iron_press"
+  ]
+}
