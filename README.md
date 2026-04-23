@@ -164,15 +164,6 @@ Highlights:
 - small enough for low-bandwidth sharing,
 - renders the 24h outage band and the salon appliance grid.
 
-## Video checklist
-
-Use this order when recording:
-
-1. on-camera intro with your Brier score,
-2. open `forecaster.py` and `prioritizer.py`,
-3. open `lite_ui.html` and show the forecast band + salon plan,
-4. open `digest_spec.md` and read the SMS aloud,
-5. answer the three challenge questions unscripted.
 
 ## Known limitations
 
@@ -181,32 +172,6 @@ Use this order when recording:
 - The UI is static by design to satisfy the low-bandwidth requirement; it is not a live web app.
 - A next iteration would add crowd outage reports or feeder-level neighbor signals.
 
-## Suggested repo structure
 
-```text
-.
-├── artifacts/
-├── data/
-├── models/
-├── digest_spec.md
-├── eval.ipynb
-├── forecaster.py
-├── generate_synthetic_data.py
-├── lite_ui.html
-├── prepare_submission.py
-├── prioritizer.py
-├── process_log.md
-├── README.md
-├── requirements.txt
-└── SIGNED.md
-```
+## video URL
 
-## Submission reminder
-
-Before submitting:
-
-- push the repo to GitHub or GitLab,
-- add your video URL in this README,
-- replace your name and date in `SIGNED.md`,
-- verify the repo runs in a clean environment,
-- verify every link opens in incognito mode.
