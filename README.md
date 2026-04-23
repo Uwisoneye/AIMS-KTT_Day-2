@@ -95,36 +95,6 @@ Top logistic features in the final model:
 
 For the salon archetype, the current plan estimates an expected weekly gain of about **80,367 RWF** relative to a naive full-on strategy during elevated-risk hours.
 
-## Run in 2 commands
-
-```bash
-pip install -r requirements.txt
-python prepare_submission.py
-```
-
-After that, open:
-
-- `lite_ui.html`
-- `digest_spec.md`
-- `eval.ipynb`
-
-## If the provided files are missing
-
-The challenge brief lists `grid_history.csv`, `appliances.json`, and `businesses.json` as provided materials. If they are not present, regenerate them with:
-
-```bash
-python generate_synthetic_data.py
-```
-
-The generator follows the brief closely:
-
-- 180 days of hourly grid history
-- daily load with morning/evening peaks
-- weekly seasonality
-- rainy-season noise
-- outage generation from lagged load, rain, and hour of day
-- outage base rate close to 4%
-- outage duration centered near 90 minutes
 
 ## Main outputs
 
