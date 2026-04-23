@@ -1,0 +1,66 @@
+{
+  "metrics": {
+    "brier_score": 0.03907731534441501,
+    "duration_mae_on_true_outages_min": 39.78193576316241,
+    "average_lead_time_hours_on_true_outages": 15.333333333333334,
+    "threshold": 0.06,
+    "holdout_days": 30,
+    "holdout_rows": 720,
+    "outage_rate_holdout": 0.04027777777777778,
+    "top_features": [
+      {
+        "feature": "dow",
+        "coef": -0.2419797732814747,
+        "abs_coef": 0.2419797732814747
+      },
+      {
+        "feature": "is_weekend",
+        "coef": 0.186394089557107,
+        "abs_coef": 0.186394089557107
+      },
+      {
+        "feature": "load_lag24",
+        "coef": 0.15057195368440315,
+        "abs_coef": 0.15057195368440315
+      },
+      {
+        "feature": "rain_lag48",
+        "coef": -0.14234230615639687,
+        "abs_coef": 0.14234230615639687
+      },
+      {
+        "feature": "rain_lag168",
+        "coef": 0.10631785922038373,
+        "abs_coef": 0.10631785922038373
+      }
+    ]
+  },
+  "summaries": {
+    "salon": {
+      "naive_daily_revenue_rwf": 590313.5693032094,
+      "planned_daily_revenue_rwf": 601794.5159922701,
+      "daily_delta_rwf": 11480.946689060644,
+      "hours_high_risk": 2,
+      "week_delta_rwf": 80366.6268234245
+    },
+    "cold_room": {
+      "naive_daily_revenue_rwf": 636612.6727779709,
+      "planned_daily_revenue_rwf": 643804.5396024033,
+      "daily_delta_rwf": 7191.866824432285,
+      "hours_high_risk": 2,
+      "week_delta_rwf": 50343.067771026
+    },
+    "tailor": {
+      "naive_daily_revenue_rwf": 451416.2588789249,
+      "planned_daily_revenue_rwf": 456859.6694581356,
+      "daily_delta_rwf": 5443.410579210802,
+      "hours_high_risk": 2,
+      "week_delta_rwf": 38103.874054475615
+    }
+  },
+  "outputs": [
+    "lite_ui.html",
+    "digest_spec.md",
+    "eval.ipynb"
+  ]
+}
